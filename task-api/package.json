@@ -1,0 +1,23 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "Task Management API — Bài thực hành Authorization và access control (Block 6)",
+  "main": "src/server.js",
+  "scripts": {
+    "start":       "node src/server.js",
+    "start:v0":    "VERSION=v0 node src/server.js",
+    "start:v1":    "VERSION=v1 node src/server.js",
+    "start:v2":    "VERSION=v2 node src/server.js",
+    "start:v3":    "VERSION=v3 node src/server.js",
+    "start:v4":    "VERSION=v4 node src/server.js",
+    "test":        "node tests/run.js",
+    "tokens":      "node tests/generate-tokens.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
